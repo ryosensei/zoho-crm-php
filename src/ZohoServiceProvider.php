@@ -13,4 +13,11 @@ class ZohoServiceProvider extends ServiceProvider
     public function register()
     {
     }
+
+    public function boot()
+    {
+        $this->publishes([
+            __DIR__.'/zoho.php' => config_path('zoho.php'),
+        ]);
+    }
 }

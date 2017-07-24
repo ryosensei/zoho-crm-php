@@ -27,3 +27,17 @@ $admins = $zoho->users->getAdmins();
 // ...or build them manually
 $response = $zoho->request('Module', 'method', ['a_parameter' => 'blablebloblu']);
 ```
+
+
+# Installation
+
+## Install package
+```composer require ryosensei/zoho-laravel-crm-php```
+
+## Register Service provider
+
+Add `Zoho\CRM\ZohoServiceProvider::class,` to your config/app.php file 
+
+## Publish configuration
+
+
