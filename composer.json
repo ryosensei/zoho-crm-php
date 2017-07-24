@@ -1,8 +1,9 @@
 {
-    "name": "tristanjahier/zoho-crm-php",
-    "description": "A PHP wrapper library for Zoho CRM API.",
+    "type": "package",
+    "name": "ryosensei/zoho-crm-php",
+    "description": "Laravel implementation for tristanjahier/zoho-crm-php",
     "keywords": ["PHP", "Zoho", "CRM", "API", "wrapper"],
-    "homepage": "https://github.com/tristanjahier/zoho-crm-php",
+    "homepage": "https://github.com/ryosensei/zoho-crm-php",
     "license": "MIT",
     "type": "library",
     "authors": [
@@ -26,5 +27,6 @@
         "psr-4": {
             "Zoho\\CRM\\": "src/"
         }
-    }
+    },
+    "version": "dev-master",
 }
