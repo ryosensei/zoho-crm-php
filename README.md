@@ -40,4 +40,6 @@ Add `Zoho\CRM\ZohoServiceProvider::class,` to your config/app.php file
 
 ## Publish configuration
 
+`php artisan vendor:publish --provider="Zoho\CRM\ZohoServiceProvider" --tag=config`
+
 
