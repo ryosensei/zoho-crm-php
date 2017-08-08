@@ -36,16 +36,11 @@ class Client
 
     private $modules = [];
 
-    protected $config;
-
     public function __construct($auth_token = null)
     {
         // Allow to instanciate a client without an auth token
         if ($auth_token !== null) {
             $this->setAuthToken($auth_token);
-        } else {
-            $auth_token = config('zoho.api_key');
-            $this->setAuthToken(config('zoho.api_key'));
         }
 
         $this->preferences = new ClientPreferences();
